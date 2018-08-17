@@ -66,7 +66,7 @@
     // }
     function land_colors(){
         color = ""
-        $("input[type=checkbox][name=land-colors]:checked").each(function(){color += $(this).val()})
+        $("input[type=checkbox][name=land-colors]:checked:visible").each(function(){color += $(this).val()})
         return color;
     }
 
@@ -74,14 +74,19 @@
         switch (this.value){
             case "dual land":
                 $("#land-colors").show();
+                $("#colorless").hide();
                 break;
             case "five color":
                 $("#land-colors").hide();
                 break;
             case "spell land":
                 $("#land-colors").show();
+                $("#colorless").show();
+                break;
             case "utility land":
                 $("#land-colors").show();
+                $("#colorless").show();
+                break;
         }
         show_cycles(get_cycles(cards, $("input[type=radio][name=land-type]:checked").val(), land_colors()));
     });
