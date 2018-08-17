@@ -48,22 +48,7 @@
             });
         });
     }
-    // function five_colors(data){
-    //     five_color_lands = _.chain(data)
-    //         .filter({type: "five color"})
-    //         .sortBy("set")
-    //         .value();
-    //     return(_.valuesIn(five_color_lands));
-    // }
-    // function show_cards(cards){
-    //     clear_cards();
-    //     $div = $("<div>", {class: `wrapper spotlight style1` });
-    //     $("#wrapper").append ($div);
-    //     _(cards).forEach(function(card){
-    //         $card = $(`<span>${card.name}</span>`);
-    //         $div.append($card);
-    //     });
-    // }
+
     function land_colors(){
         color = ""
         $("input[type=checkbox][name=land-colors]:checked:visible").each(function(){color += $(this).val()})
