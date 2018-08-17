@@ -1,8 +1,8 @@
-name, set, type, cycle, color, image_url
-Dragonskull Summit,XLN,dual land,Checklands,BR,images\cards\xln-252-dragonskull-summit.jpg,
-Rootbound Crag,XLN,dual land,Checklands,RG,images\cards\xln-256-rootbound-crag.jpg,
-Unclaimed Territory,XLN,five color,,WUBRG,images\cards\xln-258-unclaimed-territory.jpg,
-Clifftop Retreat,DOM,dual land,Checklands,RW,images\cards\dom-239-clifftop-retreat.jpg,
-Hashep Oasis,HOU,spell land,Spell Desert,G,images\cards\hou-177-hashep-oasis.jpg,
-Arch of Orazca,RIX,spell land,,C,images\cards\rix-185-arch-of-orazca.jpg,
-Zhalfirin Void,DOM,utility land,,C,images\cards\dom-249-zhalfirin-void.jpg,
+name,set,land_type,cycle,color, image_url
+Dragonskull Summit,XLN,dual land,Checklands,BR,
+Rootbound Crag,XLN,dual land,Checklands,RG,
+Unclaimed Territory,XLN,five color,,WUBRG,
+Clifftop Retreat,DOM,dual land,Checklands,RW,
+Hashep Oasis,HOU,spell land,Spell Desert,G,
+Arch of Orazca,RIX,spell land,,C,
+Zhalfirin Void,DOM,utility land,,C,

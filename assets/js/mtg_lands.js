@@ -4,8 +4,8 @@
     function card_colors(card){
         return [...card.color].concat("");
     }
-    function color_match(card, land_type, checked_colors){
-        if (land_type === "dual land")
+    function color_match(card, checked_colors){
+        if (card.land_type === "dual land")
             required_color_matches = checked_colors.length >= 2 ? 2 : 1;
         else
             required_color_matches = 1;
@@ -13,11 +13,11 @@
         return (color_matches.length >= required_color_matches);
     }
 
-    function get_cycles(data, land_type, color){
+    function get_cycles(data, land_types, color){
         var colors = color ? [...color] : [""];
         cycles = _.chain(data)
-            .filter({type: `${land_type}`})
-            .filter(function(card) {return color_match(card, land_type, colors);})
+            .filter(function(card) {return _.includes(land_types, card.land_type)})
+            .filter(function(card) {return color_match(card, colors);})
             .groupBy("set")
             .groupBy("cycle")
             .value();
@@ -50,33 +50,40 @@
     }
 
     function land_colors(){
-        color = ""
-        $("input[type=checkbox][name=land-colors]:checked:visible").each(function(){color += $(this).val()})
-        return color;
+        colors = "";
+        $("input[type=checkbox][name=land-colors]:checked:visible").each(function(){colors += $(this).val()});
+        return colors;
     }
 
-    $("input[type=radio][name=land-type]").change(function(){
-        switch (this.value){
-            case "dual land":
+    function land_types(){
+        types = [];
+        $("input[type=checkbox][name=land-types]:checked:visible").each(function(){types.push($(this).val())});
+        if (types == false)
+            types = ["dual land", "five color", "spell land", "utility land"];
+        return types;
+    }
+
+    $("input[type=checkbox][name=land-types]").change(function(){
+        types = land_types();
+        switch (types){
+            case ["five color"]:
+                $("#land-colors").hide();
+                break;
+            case ["dual land"]: 
                 $("#land-colors").show();
                 $("#colorless").hide();
                 break;
-            case "five color":
-                $("#land-colors").hide();
-                break;
-            case "spell land":
-                $("#land-colors").show();
-                $("#colorless").show();
-                break;
-            case "utility land":
+            default:
                 $("#land-colors").show();
                 $("#colorless").show();
                 break;
         }
-        show_cycles(get_cycles(cards, $("input[type=radio][name=land-type]:checked").val(), land_colors()));
+        show_cycles(get_cycles(cards, types, land_colors()));
     });
+
     $("input[type=checkbox][name=land-colors]").change(function(){
-        show_cycles(get_cycles(cards, $("input[type=radio][name=land-type]:checked").val(), land_colors()));
-    })
-    show_cycles(get_cycles(cards, "dual land"))
+        show_cycles(get_cycles(cards, land_types(), land_colors()));
+    });
+
+    show_cycles(get_cycles(cards, land_types(), land_colors()));
 })(jQuery);
