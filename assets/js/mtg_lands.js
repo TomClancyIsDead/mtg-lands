@@ -42,7 +42,7 @@
                 $set =$("<div>", {class: "set", id: `${set[0].cycle}-${set[0].set}`})
                 $cycle.append($set)
                 _(set).forEach(function(card){
-                    $card = $(`<span>${card.name}<img src="${card.image_url}"></span>`);
+                    $card = $(`<span>${card.name}<img src="${card.thumb_url}"></span>`);
                     $set.append($card);
                 });
             });

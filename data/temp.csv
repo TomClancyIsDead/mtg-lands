@@ -1,0 +1,8 @@
+name,set,land_type,cycle,color,image_url,thumb_url
+Dragonskull Summit,XLN,dual land,Checklands,BR,images/cards/full/dragonskull_summit.png,images/cards/thumb/dragonskull_summit.png
+Rootbound Crag,XLN,dual land,Checklands,RG,images/cards/full/rootbound_crag.png,images/cards/thumb/rootbound_crag.png
+Unclaimed Territory,XLN,five color,,WUBRG,images/cards/full/unclaimed_territory.png,images/cards/thumb/unclaimed_territory.png
+Clifftop Retreat,DOM,dual land,Checklands,RW,images/cards/full/clifftop_retreat.png,images/cards/thumb/clifftop_retreat.png
+Hashep Oasis,HOU,spell land,Spell Desert,G,images/cards/full/hashep_oasis.png,images/cards/thumb/hashep_oasis.png
+Arch of Orazca,RIX,spell land,,C,images/cards/full/arch_of_orazca.png,images/cards/thumb/arch_of_orazca.png
+Zhalfirin Void,DOM,utility land,,C,images/cards/full/zhalfirin_void.png,images/cards/thumb/zhalfirin_void.png
