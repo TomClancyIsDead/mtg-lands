@@ -2242,8 +2242,12 @@ input, select, textarea {
 		padding: 0.75em 1em;
 	}
 
-	input[type="checkbox"],
-	input[type="radio"] {
+	input[type=checkbox] + label {
+		display: inline-block;
+	}
+
+	/* :not(#land_colors) input[type="checkbox"],
+	:not(#land_colors)  input[type="radio"] {
 		-moz-appearance: none;
 		-webkit-appearance: none;
 		-ms-appearance: none;
@@ -2255,9 +2259,8 @@ input, select, textarea {
 		width: 1em;
 		z-index: -1;
 	}
-
-		input[type="checkbox"] + label,
-		input[type="radio"] + label {
+	:not(#land_colors)  input[type="checkbox"] + label,
+	:not(#land_colors) input[type="radio"] + label {
 			text-decoration: none;
 			color: #ffffff;
 			cursor: pointer;
@@ -2272,8 +2275,8 @@ input, select, textarea {
 			position: relative;
 		}
 
-			input[type="checkbox"] + label:before,
-			input[type="radio"] + label:before {
+		:not(#land_colors) input[type="checkbox"] + label:before,
+		:not(#land_colors) input[type="radio"] + label:before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
 				font-family: FontAwesome;
@@ -2282,8 +2285,8 @@ input, select, textarea {
 				text-transform: none !important;
 			}
 
-			input[type="checkbox"] + label:before,
-			input[type="radio"] + label:before {
+			:not(#land_colors) input[type="checkbox"] + label:before,
+			:not(#land_colors) input[type="radio"] + label:before {
 				background: rgba(255, 255, 255, 0.025);
 				border-radius: 5px;
 				border: solid 2px rgba(255, 255, 255, 0.125);
@@ -2298,26 +2301,26 @@ input, select, textarea {
 				width: 1.65em;
 			}
 
-		input[type="checkbox"]:checked + label:before,
-		input[type="radio"]:checked + label:before {
+			:not(#land_colors) input[type="checkbox"]:checked + label:before,
+			:not(#land_colors) input[type="radio"]:checked + label:before {
 			background: #ffffff;
 			border-color: #ffffff;
 			content: '\f00c';
 			color: #2e3141;
 		}
 
-		input[type="checkbox"]:focus + label:before,
-		input[type="radio"]:focus + label:before {
+		:not(#land_colors) input[type="checkbox"]:focus + label:before,
+		:not(#land_colors) input[type="radio"]:focus + label:before {
 			border-color: #4c5c96;
 		}
 
-	input[type="checkbox"] + label:before {
+		:not(#land_colors) input[type="checkbox"] + label:before {
 		border-radius: 5px;
 	}
 
-	input[type="radio"] + label:before {
+	:not(#land_colors) input[type="radio"] + label:before {
 		border-radius: 100%;
-	}
+	} */
 
 	::-webkit-input-placeholder {
 		color: rgba(255, 255, 255, 0.35) !important;
