@@ -20,9 +20,9 @@ with open(input_file, "r") as data_file, open("data/full_data.csv", mode) as ful
     #  for each line
     for row in reader:
         #     // write to new csv with full and thumb urls
-        full_image_location = f'images/cards/full/{row["name"].lower().replace(" ", "_")}.png'
+        full_image_location = f'https://meta-studios.com/images/cards/full/{row["name"].lower().replace(" ", "_")}.png'
         row["image_url"]=full_image_location
-        thumb_location = f'images/cards/thumb/{row["name"].lower().replace(" ", "_")}.png'
+        thumb_location = f'https://meta-studios.com/images/cards/thumb/{row["name"].lower().replace(" ", "_")}.png'
         row["thumb_url"]=thumb_location
         writer.writerow(row)
 

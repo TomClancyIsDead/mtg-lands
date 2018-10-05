@@ -1,18 +1,48 @@
 name,set,land_type,cycle,color,image_url,thumb_url
-Sacred Foundry,GRN,dual land,Shock Lands,WR,images/cards/full/sacred_foundry.png,images/cards/thumb/sacred_foundry.png
-Temple Garden,GRN,dual land,Shock Lands,WG,images/cards/full/temple_garden.png,images/cards/thumb/temple_garden.png
-Watery Grave,GRN,dual land,Shock Lands,UB,images/cards/full/watery_grave.png,images/cards/thumb/watery_grave.png
-Steam Vents,GRN,dual land,Shock Lands,UR,images/cards/full/steam_vents.png,images/cards/thumb/steam_vents.png
-Overgrown Tomb,GRN,dual land,Shock Lands,BG,images/cards/full/overgrown_tomb.png,images/cards/thumb/overgrown_tomb.png
-Glacial Fortress,XLN,dual land,Check Lands,WU,images/cards/full/glacial_fortress.png,images/cards/thumb/glacial_fortress.png
-Isolated Chapel,DOM,dual land,Check Lands,WB,images/cards/full/isolated_chapel.png,images/cards/thumb/isolated_chapel.png
-Clifftop Retreat,DOM,dual land,Check Lands,WR,images/cards/full/clifftop_retreat.png,images/cards/thumb/clifftop_retreat.png
-Sunpetal Grove,XLN,dual land,Check Lands,WG,images/cards/full/sunpetal_grove.png,images/cards/thumb/sunpetal_grove.png
-Drowned Catacomb,XLN,dual land,Check Lands,UB,images/cards/full/drowned_catacomb.png,images/cards/thumb/drowned_catacomb.png
-Sulfur Falls,DOM,dual land,Check Lands,UR,images/cards/full/sulfur_falls.png,images/cards/thumb/sulfur_falls.png
-Hinterland Harbor,DOM,dual land,Check Lands,UG,images/cards/full/hinterland_harbor.png,images/cards/thumb/hinterland_harbor.png
-Dragonskull Summit,XLN,dual land,Check Lands,BR,images/cards/full/dragonskull_summit.png,images/cards/thumb/dragonskull_summit.png
-Woodland Cemetery,DOM,dual land,Check Lands,BG,images/cards/full/woodland_cemetery.png,images/cards/thumb/woodland_cemetery.png
-Rootbound Crag,XLN,dual land,Check Lands,RG,images/cards/full/rootbound_crag.png,images/cards/thumb/rootbound_crag.png
-Meandering River,M19,dual land,Tap Lands,WU,images/cards/full/meandering_river.png,images/cards/thumb/meandering_river.png
-Forsakn Sanctuary,M19,dual land,Tap Lands,WB,images/cards/full/forsakn_sanctuary.png,images/cards/thumb/forsakn_sanctuary.png
+Sacred Foundry,GRN,dual land,Shock Lands,WR,https://meta-studios.com/images/cards/full/sacred_foundry.png,https://meta-studios.com/images/cards/thumb/sacred_foundry.png
+Temple Garden,GRN,dual land,Shock Lands,WG,https://meta-studios.com/images/cards/full/temple_garden.png,https://meta-studios.com/images/cards/thumb/temple_garden.png
+Watery Grave,GRN,dual land,Shock Lands,UB,https://meta-studios.com/images/cards/full/watery_grave.png,https://meta-studios.com/images/cards/thumb/watery_grave.png
+Steam Vents,GRN,dual land,Shock Lands,UR,https://meta-studios.com/images/cards/full/steam_vents.png,https://meta-studios.com/images/cards/thumb/steam_vents.png
+Overgrown Tomb,GRN,dual land,Shock Lands,BG,https://meta-studios.com/images/cards/full/overgrown_tomb.png,https://meta-studios.com/images/cards/thumb/overgrown_tomb.png
+Glacial Fortress,XLN,dual land,Check Lands,WU,https://meta-studios.com/images/cards/full/glacial_fortress.png,https://meta-studios.com/images/cards/thumb/glacial_fortress.png
+Isolated Chapel,DOM,dual land,Check Lands,WB,https://meta-studios.com/images/cards/full/isolated_chapel.png,https://meta-studios.com/images/cards/thumb/isolated_chapel.png
+Clifftop Retreat,DOM,dual land,Check Lands,WR,https://meta-studios.com/images/cards/full/clifftop_retreat.png,https://meta-studios.com/images/cards/thumb/clifftop_retreat.png
+Sunpetal Grove,XLN,dual land,Check Lands,WG,https://meta-studios.com/images/cards/full/sunpetal_grove.png,https://meta-studios.com/images/cards/thumb/sunpetal_grove.png
+Drowned Catacomb,XLN,dual land,Check Lands,UB,https://meta-studios.com/images/cards/full/drowned_catacomb.png,https://meta-studios.com/images/cards/thumb/drowned_catacomb.png
+Sulfur Falls,DOM,dual land,Check Lands,UR,https://meta-studios.com/images/cards/full/sulfur_falls.png,https://meta-studios.com/images/cards/thumb/sulfur_falls.png
+Hinterland Harbor,DOM,dual land,Check Lands,UG,https://meta-studios.com/images/cards/full/hinterland_harbor.png,https://meta-studios.com/images/cards/thumb/hinterland_harbor.png
+Dragonskull Summit,XLN,dual land,Check Lands,BR,https://meta-studios.com/images/cards/full/dragonskull_summit.png,https://meta-studios.com/images/cards/thumb/dragonskull_summit.png
+Woodland Cemetery,DOM,dual land,Check Lands,BG,https://meta-studios.com/images/cards/full/woodland_cemetery.png,https://meta-studios.com/images/cards/thumb/woodland_cemetery.png
+Rootbound Crag,XLN,dual land,Check Lands,RG,https://meta-studios.com/images/cards/full/rootbound_crag.png,https://meta-studios.com/images/cards/thumb/rootbound_crag.png
+Meandering River,M19,dual land,Tap Lands,WU,https://meta-studios.com/images/cards/full/meandering_river.png,https://meta-studios.com/images/cards/thumb/meandering_river.png
+Forsaken Sanctuary,M19,dual land,Tap Lands,WB,https://meta-studios.com/images/cards/full/forsaken_sanctuary.png,https://meta-studios.com/images/cards/thumb/forsaken_sanctuary.png
+Stone Quarry,M19,dual land,Tap Lands,WR,https://meta-studios.com/images/cards/full/stone_quarry.png,https://meta-studios.com/images/cards/thumb/stone_quarry.png
+Tranquil Expanse,M19,dual land,Tap Lands,WG,https://meta-studios.com/images/cards/full/tranquil_expanse.png,https://meta-studios.com/images/cards/thumb/tranquil_expanse.png
+Submerged Boneyard,M19,dual land,Tap Lands,UB,https://meta-studios.com/images/cards/full/submerged_boneyard.png,https://meta-studios.com/images/cards/thumb/submerged_boneyard.png
+Highland Lake,M19,dual land,Tap Lands,UR,https://meta-studios.com/images/cards/full/highland_lake.png,https://meta-studios.com/images/cards/thumb/highland_lake.png
+Woodland Stream,M19,dual land,Tap Lands,UG,https://meta-studios.com/images/cards/full/woodland_stream.png,https://meta-studios.com/images/cards/thumb/woodland_stream.png
+Cinder Barrens,M19,dual land,Tap Lands,BR,https://meta-studios.com/images/cards/full/cinder_barrens.png,https://meta-studios.com/images/cards/thumb/cinder_barrens.png
+Foul Orchard,M19,dual land,Tap Lands,BG,https://meta-studios.com/images/cards/full/foul_orchard.png,https://meta-studios.com/images/cards/thumb/foul_orchard.png
+Timber Gorge,M19,dual land,Tap Lands,RG,https://meta-studios.com/images/cards/full/timber_gorge.png,https://meta-studios.com/images/cards/thumb/timber_gorge.png
+Boros Guildgate,GRN,dual land,Guildgates,WR,https://meta-studios.com/images/cards/full/boros_guildgate.png,https://meta-studios.com/images/cards/thumb/boros_guildgate.png
+Selesnya Guildgate,GRN,dual land,Guildgates,WG,https://meta-studios.com/images/cards/full/selesnya_guildgate.png,https://meta-studios.com/images/cards/thumb/selesnya_guildgate.png
+Dimir Guildgate,GRN,dual land,Guildgates,UB,https://meta-studios.com/images/cards/full/dimir_guildgate.png,https://meta-studios.com/images/cards/thumb/dimir_guildgate.png
+Izzet Guildgate,GRN,dual land,Guildgates,UR,https://meta-studios.com/images/cards/full/izzet_guildgate.png,https://meta-studios.com/images/cards/thumb/izzet_guildgate.png
+Golgari Guildgate,GRN,dual land,Guildgates,BG,https://meta-studios.com/images/cards/full/golgari_guildgate.png,https://meta-studios.com/images/cards/thumb/golgari_guildgate.png
+Evolving Wilds,RIX,five color,,WURBG,https://meta-studios.com/images/cards/full/evolving_wilds.png,https://meta-studios.com/images/cards/thumb/evolving_wilds.png
+Field of Ruin,XLN,five color,,WURBGC,https://meta-studios.com/images/cards/full/field_of_ruin.png,https://meta-studios.com/images/cards/thumb/field_of_ruin.png
+Gateway Plaza,GRN,five color,,WURBG,https://meta-studios.com/images/cards/full/gateway_plaza.png,https://meta-studios.com/images/cards/thumb/gateway_plaza.png
+Guildmages' Forum,GRN,five color,,WURBGC,https://meta-studios.com/images/cards/full/guildmages'_forum.png,https://meta-studios.com/images/cards/thumb/guildmages'_forum.png
+Rupture Spire,M19,five color,,WURBG,https://meta-studios.com/images/cards/full/rupture_spire.png,https://meta-studios.com/images/cards/thumb/rupture_spire.png
+Unclaimed Territory,XLN,five color,,WURBGC,https://meta-studios.com/images/cards/full/unclaimed_territory.png,https://meta-studios.com/images/cards/thumb/unclaimed_territory.png
+Unknown Shores,XLN,five color,,WURBGC,https://meta-studios.com/images/cards/full/unknown_shores.png,https://meta-studios.com/images/cards/thumb/unknown_shores.png
+Arch of Orazca,RIX,utility land,,C,https://meta-studios.com/images/cards/full/arch_of_orazca.png,https://meta-studios.com/images/cards/thumb/arch_of_orazca.png
+Cabal Stronghold,DOM,utility land,,BC,https://meta-studios.com/images/cards/full/cabal_stronghold.png,https://meta-studios.com/images/cards/thumb/cabal_stronghold.png
+Detection Tower,M19,utility land,,C,https://meta-studios.com/images/cards/full/detection_tower.png,https://meta-studios.com/images/cards/thumb/detection_tower.png
+Memorial to Folly,DOM,utility land,Memorials,B,https://meta-studios.com/images/cards/full/memorial_to_folly.png,https://meta-studios.com/images/cards/thumb/memorial_to_folly.png
+Memorial to Genius,DOM,utility land,Memorials,U,https://meta-studios.com/images/cards/full/memorial_to_genius.png,https://meta-studios.com/images/cards/thumb/memorial_to_genius.png
+Memorial to Glory,DOM,utility land,Memorials,W,https://meta-studios.com/images/cards/full/memorial_to_glory.png,https://meta-studios.com/images/cards/thumb/memorial_to_glory.png
+Memorial to Unity,DOM,utility land,Memorials,G,https://meta-studios.com/images/cards/full/memorial_to_unity.png,https://meta-studios.com/images/cards/thumb/memorial_to_unity.png
+Memorial to War,DOM,utility land,Memorials,R,https://meta-studios.com/images/cards/full/memorial_to_war.png,https://meta-studios.com/images/cards/thumb/memorial_to_war.png
+Reliquary Tower,M19,utility land,,C,https://meta-studios.com/images/cards/full/reliquary_tower.png,https://meta-studios.com/images/cards/thumb/reliquary_tower.png
+Zhalfirin Void,DOM,utility land,,C,https://meta-studios.com/images/cards/full/zhalfirin_void.png,https://meta-studios.com/images/cards/thumb/zhalfirin_void.png
