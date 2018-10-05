@@ -18,14 +18,13 @@
         cycles = _.chain(data)
             .filter(function(card) {return _.includes(land_types, card.land_type)})
             .filter(function(card) {return color_match(card, colors);})
-            .groupBy("set")
             .groupBy("cycle")
             .value();
 
         return(_.valuesIn(cycles));
     }
     function clear_cards(){
-        $("#wrapper").empty()
+        $("#cards").empty()
     }
     function show_cycles(cycles) {
         clear_cards();
@@ -36,16 +35,16 @@
                 $cycle.addClass("alt");
             }
             // console.log($div)
-            $("#wrapper").append($cycle);
+            $("#cards").append($cycle);
             // loop through sets, creating different subsections and displaying cards
-            _(cycle).forEach(function(set){
-                $set =$("<div>", {class: "set", id: `${set[0].cycle}-${set[0].set}`})
-                $cycle.append($set)
-                _(set).forEach(function(card){
-                    $card = $(`<span>${card.name}<img src="${card.thumb_url}"></span>`);
-                    $set.append($card);
+            // _(cycle).forEach(function(set){
+                //  $set =$("<div>", {class: "set", id: `${set[0].cycle}-${set[0].set}`})
+                // $cycle.append($set)
+                _(cycle).forEach(function(card){
+                    $card = $(`<span class="card-wrapper ${card.color}">${card.name}<img src="${card.thumb_url}"></span>`);
+                    $cycle.append($card);
                 });
-            });
+            // });
         });
     }
 
@@ -64,12 +63,16 @@
     }
 
     $("input[type=checkbox][name=land-types]").change(function(){
-        types = land_types();
+        types = land_types().join(", ");
         switch (types){
-            case ["five color"]:
+            case "five color":
                 $("#land-colors").hide();
                 break;
-            case ["dual land"]: 
+            case "dual land": 
+                $("#land-colors").show();
+                $("#colorless").hide();
+                break;
+            case "dual land, five color": 
                 $("#land-colors").show();
                 $("#colorless").hide();
                 break;

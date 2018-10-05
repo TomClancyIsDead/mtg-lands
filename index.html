@@ -10,8 +10,9 @@
 		<meta charset="utf-8" />
 		<meta http-equiv="Content-Language" content="en">
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/main.css"  type="text/css" />
 		<link href="assets/css/mana.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="assets/css/mtg_lands.css"  type="text/css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -47,16 +48,21 @@
 						<div class="inner">
 							<div class="logo"><span class="icon fa-diamond"></span></div>
 							<h2>Lands in Standard</h2>
-							<div>
+							<div id="filter-controls">
 								<span id="land-types">
 									<input type="checkbox" id="dual-lands" name="land-types" value="dual land" 	checked>
 									<label for="dual-lands">Dual Lands</label>
+									<span class="filter-separator"></span>
 									<input type="checkbox" id="five-color" name="land-types" value="five color">
 									<label for="five-color">Five Color Lands</label>
-									<input type="checkbox" id="spell-lands" name="land-types" value="spell land">
-									<label for="spell-lands">Spell Lands</label>
+									<span class="filter-separator"></span>
 									<input type="checkbox" id="utility-lands" name="land-types" value="utility land">
 									<label for="utility-lands">Utility Lands</label>
+									<span class="filter-separator"></span>
+									<span id="man-lands-overlay">
+									<input type="checkbox" id="man-lands" name="land-types" value="man land">
+									<label for="man-lands">Man Lands</label>
+									</span>
 								</span>
 								<span id="land-colors">
 									<input type="checkbox" id="W" name="land-colors" value="W"/>
@@ -92,8 +98,9 @@
 
 				<!-- Wrapper -->
 					<section id="wrapper">
+						<div id="cards">
 
-
+						</div>
 					</section>
 
 				<!-- Footer -->
@@ -148,7 +155,7 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/lodash.js"></script>
-			<script src="data/sample.js"></script>
+			<script src="data/full_data.js"></script>
 			<script src="assets/js/mtg_lands.js"></script>
 	</body>
 </html>

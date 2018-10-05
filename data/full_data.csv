@@ -1,0 +1,20 @@
+name,set,land_type,cycle,color,image_url,thumb_url
+Sacred Foundry,GRN,dual land,Shock Lands,WR,images/cards/full/sacred_foundry.png,images/cards/thumb/sacred_foundry.png
+Temple Garden,GRN,dual land,Shock Lands,WG,images/cards/full/temple_garden.png,images/cards/thumb/temple_garden.png
+Watery Grave,GRN,dual land,Shock Lands,UB,images/cards/full/watery_grave.png,images/cards/thumb/watery_grave.png
+Steam Vents,GRN,dual land,Shock Lands,UR,images/cards/full/steam_vents.png,images/cards/thumb/steam_vents.png
+Overgrown Tomb,GRN,dual land,Shock Lands,BG,images/cards/full/overgrown_tomb.png,images/cards/thumb/overgrown_tomb.png
+Glacial Fortress,XLN,dual land,Check Lands,WU,images/cards/full/glacial_fortress.png,images/cards/thumb/glacial_fortress.png
+Isolated Chapel,DOM,dual land,Check Lands,WB,images/cards/full/isolated_chapel.png,images/cards/thumb/isolated_chapel.png
+Clifftop Retreat,DOM,dual land,Check Lands,WR,images/cards/full/clifftop_retreat.png,images/cards/thumb/clifftop_retreat.png
+Sunpetal Grove,XLN,dual land,Check Lands,WG,images/cards/full/sunpetal_grove.png,images/cards/thumb/sunpetal_grove.png
+Drowned Catacomb,XLN,dual land,Check Lands,UB,images/cards/full/drowned_catacomb.png,images/cards/thumb/drowned_catacomb.png
+Sulfur Falls,DOM,dual land,Check Lands,UR,images/cards/full/sulfur_falls.png,images/cards/thumb/sulfur_falls.png
+Hinterland Harbor,DOM,dual land,Check Lands,UG,images/cards/full/hinterland_harbor.png,images/cards/thumb/hinterland_harbor.png
+Dragonskull Summit,XLN,dual land,Check Lands,BR,images/cards/full/dragonskull_summit.png,images/cards/thumb/dragonskull_summit.png
+Woodland Cemetery,DOM,dual land,Check Lands,BG,images/cards/full/woodland_cemetery.png,images/cards/thumb/woodland_cemetery.png
+Rootbound Crag,XLN,dual land,Check Lands,RG,images/cards/full/rootbound_crag.png,images/cards/thumb/rootbound_crag.png
+Meandering River,DOM,Tap Land,WU,,images/cards/full/meandering_river.png,images/cards/thumb/meandering_river.png
+Forsakn Sanctuary,RIX,Tap Land,WB,,images/cards/full/forsakn_sanctuary.png,images/cards/thumb/forsakn_sanctuary.png
+,RIX,Tap Land,WR,,images/cards/full/forsakn_sanctuary.png,images/cards/thumb/forsakn_sanctuary.png
+Forsaken Sanctuary,RIX,Tap Land,WG,,images/cards/full/forsaken_sanctuary.png,images/cards/thumb/forsaken_sanctuary.png

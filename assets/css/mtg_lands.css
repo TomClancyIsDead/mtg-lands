@@ -1,3 +1,40 @@
-#land-colors input {
-    display:none;
+#filter-controls{
+    display: flex;
+}
+#land-types{
+    border: 2px solid white;
+    display: flex;
+}
+#land-colors{
+   border: 2px solid white; 
+   padding: 0 6px 3px 0;
+   display: flex;
+   margin-left: 5px;
+}
+#land-types input:checked+label {
+    background-color: black;
+}
+#land-colors input:checked+label {
+    background-color: #bbb;
+}
+#land-types label{
+    margin: auto;
+}
+#land-types .filter-separator {
+    margin-left: 7px;
+    border-left: 2px solid white;
+    width: 0px;
+    height: 100%;
+    display: block;
+}
+#land-colors label{
+    margin: auto;
+}
+.card-wrapper {
+    border: 1px solid;
+}
+#man-lands-overlay {
+    background-color: #bbb;
+    opacity: .5;
+    padding-right: 7px;
 }
