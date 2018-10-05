@@ -14,7 +14,5 @@ Hinterland Harbor,DOM,dual land,Check Lands,UG,images/cards/full/hinterland_harb
 Dragonskull Summit,XLN,dual land,Check Lands,BR,images/cards/full/dragonskull_summit.png,images/cards/thumb/dragonskull_summit.png
 Woodland Cemetery,DOM,dual land,Check Lands,BG,images/cards/full/woodland_cemetery.png,images/cards/thumb/woodland_cemetery.png
 Rootbound Crag,XLN,dual land,Check Lands,RG,images/cards/full/rootbound_crag.png,images/cards/thumb/rootbound_crag.png
-Meandering River,DOM,Tap Land,WU,,images/cards/full/meandering_river.png,images/cards/thumb/meandering_river.png
-Forsakn Sanctuary,RIX,Tap Land,WB,,images/cards/full/forsakn_sanctuary.png,images/cards/thumb/forsakn_sanctuary.png
-,RIX,Tap Land,WR,,images/cards/full/forsakn_sanctuary.png,images/cards/thumb/forsakn_sanctuary.png
-Forsaken Sanctuary,RIX,Tap Land,WG,,images/cards/full/forsaken_sanctuary.png,images/cards/thumb/forsaken_sanctuary.png
+Meandering River,M19,dual land,Tap Lands,WU,images/cards/full/meandering_river.png,images/cards/thumb/meandering_river.png
+Forsakn Sanctuary,M19,dual land,Tap Lands,WB,images/cards/full/forsakn_sanctuary.png,images/cards/thumb/forsakn_sanctuary.png
